@@ -106,7 +106,7 @@ public class LaptopAndNotebookPageSteps {
 
     @And("^I add comments to text area about product order$")
     public void iAddCommentsToTextAreaAboutProductOrder() {
-        new CheckoutPage().addCommentsToTextArea("Happy Christmas!");
+        new CheckoutPage().addCommentsToTextArea("Thank you");
     }
 
     @And("^I click checkbox of terms and condition$")
