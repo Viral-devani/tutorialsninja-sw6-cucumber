@@ -47,7 +47,7 @@ public class ProductPage extends Utility {
     @CacheLookup
     @FindBy(xpath = "//h1[contains(text(),'MacBook')]")
     WebElement macBookText;
-    //******************************Desktop**********************//
+   
 
     //2.5 Verify the Text "HP LP3065"
     public String getProductHPLP3065(){
@@ -101,8 +101,7 @@ public class ProductPage extends Utility {
         log.info("Click on link “shopping cart” display into success message " + shoppingCartButton.toString());
     }
 
-    //****************************************Laptop***********************//
-   //Verify text MacBook
+   
     public String getProductMacBookText(){
         log.info("Verify text MacBook " + macBookText.toString());
         return getTextFromElement(macBookText);
